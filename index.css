@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('/images/Field.png'), url('/images/Background\ img.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+body header {
+    background-color: #0C2A0C;
+    background-image: url('/images/Background\ img.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header {
+    padding: 5px;
+    margin: 2px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+header nav {
+    color: #fff;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color:#fff;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: #A1D03E;
+}
+
+div .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #0C2A0C;
+}
